@@ -1,0 +1,73 @@
+* {margin: 0; padding: 0;}
+
+/*parallax, mude body, html height to 100; attachment to fixed*/
+body, html {margin: 0; font: 16px "Lato", sans-serif; color: #777; 
+			height: 100%;}
+
+section.image {
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center; 
+	background-repeat: no-repeat;
+	height: 100%; 
+	opacity: 1;   
+	position: relative;
+}
+
+/* Images */
+.ballons {
+	background-image: url(../images/balloons.jpg);
+}
+
+.road {
+	background-image: url(../images/road.jpg);
+}
+
+.sunset {
+	background-image: url(../images/sunset.jpg);
+}
+
+.mountains {
+	background-image: url(../images/mountains.jpg);
+}
+
+.ocean {background-image: url(../images/ocean.jpg);
+}
+
+.beach {
+	background-image: url(../images/beach.jpg);
+}
+
+div.title-box {
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	position: relative;
+}
+
+h2 {
+	background-color: #fff;
+	font-size: 300%;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	mix-blend-mode: screen;
+	padding: 20px;
+}
+
+.content {
+	background-color: white; 
+	color: #777; 
+	font-size: 20px;
+	padding: 50px 80px;
+	text-align: justify; 
+}
+
+.content h3 {
+	color: #111;
+	font-size: 200%;
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
