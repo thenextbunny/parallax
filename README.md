@@ -9,7 +9,7 @@
   
   <h3>Linguagens utilizadas</h3>
   <ul>
-    <li>CSS3</li>
-    <li>HTML5</li>
+    <li>CSS</li>
+    <li>HTML</li>
   </ul>
 </div>
